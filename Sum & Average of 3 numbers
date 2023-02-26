@@ -1,16 +1,14 @@
-#include <stdio.h>
+#include<stdio.h>
 int main()
 {
-      int a,b,c;
-      float sum;
-      float avg;
-       
-      printf("\nEnter First Number  : ");
-      scanf("%d", &a);
-      printf("\nEnter Second Number : ");
-      scanf("%d",&b);
-      printf("\nEnter Third Number : ");
-      scanf("%d",&c);
+      float a,b,c,sum,avg;
+     
+      printf("\nEnter First Number: ");
+      scanf("%f", &a);
+      printf("\nEnter Second Number: ");
+      scanf("%f",&b);
+      printf("\nEnter Third Number: ");
+      scanf("%f",&c);
        
       // For Sum 
        
